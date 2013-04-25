@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ruby on Rails: Welcome aboard</title>
+    <title>Social Calendar.  A calendar for enjoying life</title>
+      <style type="text/css">
+          #header{
+              background:#e9f6fc;
+              height:40px;
+              font-family:Gibson, Helvetica;
+              text-align:center;
+              color:#434343;
+              padding-top:10px;
+              }
+          #content{
+              background:white;
+              font-family:Gibson, Helvetica;
+              text-align:center;
+              color:#434343;
+              
+          }
+          #button{
+              width:155px;
+              line-height: 45px;
+              font-size:33px;
+          }
+          #hr{
+              background-color:yellow;
+              color:yellow
+          }
+       </style>
       </head>
       <body>
-       <h1>   Welcome to Social Calendar Jade...let's get a beer </h1>
+          <div id ="header"> socialCal      Your Calendar for enjoying life </div>
+          <div id="content">
+          <h2>   Stop Working so much.  Get out and enjoy life. </h2>
+              <hr>
+          <p>  Join via Facebook |   OR    |   Enter Your Email  </p>
+              <form>
+                  First name: <input type="text" name="firstname"><br>
+                      Last name: <input type="text" name="lastname"><br>
+                          <input type="submit" id="button" value="Submit">
+                              <hr style="background-color:grey;" >
+              </form>
+          <p> 30 friends using Social Cal </p>
+          </div>
+          
+          
+       
       </body>
 </html>
